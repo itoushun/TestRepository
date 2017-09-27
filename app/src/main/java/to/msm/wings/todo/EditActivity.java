@@ -33,7 +33,7 @@ public class EditActivity extends AppCompatActivity {
         this.setTitle(pos<0?"追加":"編集");
 
         //パラメータの取得(3)
-        pos = -1;
+        //pos = -1;
         toDoItem = new ToDoItem();
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
